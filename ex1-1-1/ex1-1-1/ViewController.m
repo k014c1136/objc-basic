@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    BOOL judge = YES;
+    NSLog(@"%d", judge);
+    
+    NSString *str = @"Hello World.";
+    NSLog(@"%@", str);
+    
+    NSInteger num = 123;
+    NSLog(@"%ld", (long)num);
+    
+    float pai = 3.1415;
+    NSLog(@"%f", pai);
 }
 
 - (void)didReceiveMemoryWarning {

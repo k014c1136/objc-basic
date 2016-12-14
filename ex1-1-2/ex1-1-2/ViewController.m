@@ -17,6 +17,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *color = @[@"red", @"blue", @"green"];
+    NSLog(@"%@", color);
+    
+    NSDictionary *num = @{@"1":@"key1", @"2":@"key2", @"3":@"key3"};
+    NSLog(@"%@", num);
 }
 
 - (void)didReceiveMemoryWarning {
